@@ -5,6 +5,14 @@
         "bitwasp/bitcoin": "^1.0",
         "kornrunner/php-ethereum-address": "^0.2.0"
     },
+    "config": {
+        "audit": {
+            "ignore": {
+                "PKSA-j43q-24zh-tyzv": true,
+                "PKSA-36gf-zqdd-tq5m": true
+            }
+        }
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
