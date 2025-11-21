@@ -4,11 +4,13 @@
     "require": {
         "furqansiddiqui/bip39-mnemonic-php": "^0.2.0",
         "furqansiddiqui/bip32-keypair-php": "^0.4.0",
-        "kornrunner/ethereum-address": "^0.2.0"
+        "kornrunner/ethereum-address": "^0.2.0",
+        "charcoal-dev/buffers": "^0.2.4"
     },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
     }
+
 }
